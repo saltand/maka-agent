@@ -420,6 +420,18 @@ export {
   renderHeavyTaskEvidenceForPrompt,
 } from './heavy-task-evidence.js';
 export type {
+  CellContaminationReport,
+  ContaminationBenchmarkIdentity,
+  ContaminationScanReport,
+  ContaminationSignal,
+  ContaminationSignalKind,
+} from './harness-contamination-scan.js';
+export {
+  buildContaminationScanReport,
+  renderContaminationScanReportMarkdown,
+  scanCellTrajectory,
+} from './harness-contamination-scan.js';
+export type {
   HeavyTaskCompletionInput,
   HeavyTaskCompletionStatus,
   HeavyTaskRuntimeCapKind,
